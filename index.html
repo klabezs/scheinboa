@@ -8,22 +8,37 @@
   <style>
     header {
       background: url("Images/Chain1.png") center/cover no-repeat;
-      color: white;
       padding: 4rem 2rem;
       text-align: center;
+      position: relative;
+    }
+
+    /* Weißer Schleier über dem Bild für bessere Lesbarkeit */
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(255, 255, 255, 0.6); /* halbtransparent weiß */
+      z-index: 0;
+    }
+
+    header * {
+      position: relative;
+      z-index: 1;
     }
 
     h1 {
       margin: 0;
       font-size: 3rem;
-      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      color: black;
+      text-shadow: none;
     }
 
     .subtitle {
       font-style: italic;
       margin-top: 1rem;
-      color: #e0ffe0;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+      color: #111;
+      text-shadow: none;
     }
 
     footer {
