@@ -15,8 +15,8 @@ header {
 
 h1 {
   margin: 0;
-  font-size: 3rem;
-  color: black; /* ← NEU */
+  font-size: 4rem;
+  color: black; 
   text-shadow: none; /* ← falls vorher vorhanden */
 }
 
