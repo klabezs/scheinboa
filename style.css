@@ -16,9 +16,11 @@ header {
 h1 {
   margin: 0;
   font-size: 4rem;
-  color: black; 
-  text-shadow: none; /* ← falls vorher vorhanden */
+  color: black;
+  font-weight: bold;
+  text-shadow: none;
 }
+
 
 .subtitle {
   font-style: italic;
