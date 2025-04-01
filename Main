@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scheinboa nochhoitig</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Scheinboa nochhoitig</h1>
+    <p class="subtitle">Ein Blog zwischen Konsumkritik, Nachhaltigkeits-Illusionen & Freestyle-Lifestyle.</p>
+  </header>
+
+  <main>
+    <section class="posts">
+      <article>
+        <h2><a href="#">„Minimalismus mit Bestellung“</a></h2>
+        <p>Ich wollte nichts kaufen. Dann war Sale. Und der Rest ist Geschichte. Ein Blog über Dinge, die man eigentlich nicht braucht – aber trotzdem liebt.</p>
+        <p class="date">01. April 2025</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Scheinboa nochhoitig – ehrlich konsumkritisch seit vorgestern.</p>
+  </footer>
+</body>
+</html>
